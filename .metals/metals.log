@@ -691,3 +691,21 @@ INFO: Unsupported notification method: $/setTrace
 2025.05.23 23:06:26 INFO  time: compiled niki-the-robot-dsl in 0.61s
 2025.05.23 23:11:28 INFO  compiling niki-the-robot-dsl (1 scala source)
 2025.05.23 23:11:28 INFO  time: compiled niki-the-robot-dsl in 0.26s
+2025.05.23 23:12:16 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:12:16 INFO  time: compiled niki-the-robot-dsl in 0.34s
+May 23, 2025 11:14:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 503
+May 23, 2025 11:14:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 569
+2025.05.23 23:14:48 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:14:48 INFO  time: compiled niki-the-robot-dsl in 0.25s
+2025.05.23 23:15:04 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:15:04 INFO  time: compiled niki-the-robot-dsl in 0.44s
+2025.05.23 23:16:34 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:16:34 INFO  time: compiled niki-the-robot-dsl in 0.75s
+2025.05.23 23:17:01 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:17:01 INFO  time: compiled niki-the-robot-dsl in 0.27s
+2025.05.23 23:17:17 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:17:17 INFO  time: compiled niki-the-robot-dsl in 0.45s
+2025.05.23 23:17:49 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 23:17:49 INFO  time: compiled niki-the-robot-dsl in 0.37s
