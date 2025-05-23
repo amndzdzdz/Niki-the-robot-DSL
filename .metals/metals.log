@@ -1,0 +1,674 @@
+2025.05.23 22:40:36 INFO  Started: Metals version 1.5.3 in folders '/home/amin-dziri/Documents/projects/Niki-the-robot-DSL' for client Visual Studio Code 1.100.2.
+2025.05.23 22:40:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:40:38 WARN  Could not find semantic tokens for: file:///home/amin-dziri/Documents/projects/Niki-the-robot-DSL/build.sbt
+2025.05.23 22:40:40 INFO  running '/home/amin-dziri/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.23 22:40:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:40:40 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/metals.sbt
+2025.05.23 22:40:40 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/project/metals.sbt
+2025.05.23 22:40:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:40:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:40:41 INFO  [info] Updated file /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/build.properties: set sbt.version to 1.10.11
+2025.05.23 22:40:41 INFO  [info] welcome to sbt 1.10.11 (Ubuntu Java 21.0.7)
+2025.05.23 22:40:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:40:41 WARN  Could not find semantic tokens for: file:///home/amin-dziri/Documents/projects/Niki-the-robot-DSL/build.sbt
+2025.05.23 22:40:42 INFO  [info] loading settings for project niki-the-robot-dsl-build-build from metals.sbt...
+2025.05.23 22:40:42 INFO  [info] loading project definition from /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/project
+2025.05.23 22:40:44 INFO  [info] loading settings for project niki-the-robot-dsl-build from metals.sbt...
+2025.05.23 22:40:44 INFO  [info] loading project definition from /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project
+2025.05.23 22:40:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:40:44 INFO  [success] Generated .bloop/niki-the-robot-dsl-build.json
+2025.05.23 22:40:45 INFO  [success] Total time: 1 s, completed May 23, 2025, 10:40:45 PM
+2025.05.23 22:40:45 INFO  [info] loading settings for project niki-the-robot-dsl from build.sbt...
+2025.05.23 22:40:45 INFO  [info] set current project to niki-the-robot-dsl (in build file:/home/amin-dziri/Documents/projects/Niki-the-robot-DSL/)
+2025.05.23 22:40:45 INFO  [success] Generated .bloop/niki-the-robot-dsl.json
+2025.05.23 22:40:45 INFO  [success] Generated .bloop/niki-the-robot-dsl-test.json
+2025.05.23 22:40:45 INFO  [success] Total time: 0 s, completed May 23, 2025, 10:40:45 PM
+2025.05.23 22:40:45 INFO  time: ran 'sbt bloopInstall' in 5.66s
+2025.05.23 22:40:45 INFO  Attempting to connect to the build server...
+2025.05.23 22:40:45 INFO  No running Bloop server found, starting one.
+2025.05.23 22:40:46 INFO  Starting compilation server
+2025.05.23 22:40:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:40:51 INFO  Attempting to connect to the build server...
+2025.05.23 22:40:51 INFO  Found a Bloop server running
+2025.05.23 22:40:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:40:51 INFO  time: Connected to build server in 6.07s
+2025.05.23 22:40:51 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.23 22:40:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2025.05.23 22:40:58 INFO  time: indexed workspace in 6.81s
+2025.05.23 22:41:00 INFO  time: code lens generation in 1.35s
+2025.05.23 22:41:00 INFO  time: code lens generation in 1.35s
+2025.05.23 22:44:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:44:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:44:06 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:44:06 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:44:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:11 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:11 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:11 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:12 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:15 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:15 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:15 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:15 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:17 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:17 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:18 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:30 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:30 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:30 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:31 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:31 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:31 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:31 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:41 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:41 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:41 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:45 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:48 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:46:48 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:48 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:48 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:49 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:50 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:50 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:50 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:50 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:46:58 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:00 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:00 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:00 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:07 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:07 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:07 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:08 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:47:08 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:09 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:09 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:09 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:10 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:10 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:13 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:14 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:15 INFO  Shutting down server
+2025.05.23 22:47:15 INFO  shutting down Metals
+2025.05.23 22:47:15 INFO  Shut down connection with build server.
+2025.05.23 22:47:15 INFO  Shut down connection with build server.
+2025.05.23 22:47:15 INFO  Exiting server
+2025.05.23 22:47:24 INFO  Started: Metals version 1.5.3 in folders '/home/amin-dziri/Documents/projects/Niki-the-robot-DSL' for client Visual Studio Code 1.100.2.
+2025.05.23 22:47:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:47:25 INFO  Attempting to connect to the build server...
+2025.05.23 22:47:25 INFO  Found a Bloop server running
+2025.05.23 22:47:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:47:25 INFO  Attempting to connect to the build server...
+2025.05.23 22:47:25 INFO  Found a Bloop server running
+2025.05.23 22:47:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:47:25 INFO  time: Connected to build server in 0.29s
+2025.05.23 22:47:25 INFO  Connected to Build server: Bloop v2.0.10
+May 23, 2025 10:47:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+May 23, 2025 10:47:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+May 23, 2025 10:47:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+May 23, 2025 10:47:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 23, 2025 10:47:27 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: java.lang.AssertionError: assertion failed: file:///home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala: 19 >= 19 (full report at: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/.reports/metals-full/2025-05-23/r_compiler-error_22-47-27-246.md)
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 INFO  time: indexed workspace in 1.55s
+2025.05.23 22:47:27 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:27 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:30 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:31 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:35 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:38 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:38 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:38 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:42 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:43 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:43 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:43 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:43 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:43 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:43 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:44 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:46 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala
+2025.05.23 22:47:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:47:46 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:03 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:07 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:06 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:07 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:08 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:08 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:39 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/Scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:55 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:48:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:55 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:56 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:56 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:48:56 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:56 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:56 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:57 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:57 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:48:57 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:48:58 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:32 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:50:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:32 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:36 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:37 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:38 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:38 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:50:38 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:39 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:50:40 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:20 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:28 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:29 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:30 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:30 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:33 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:51:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:51:34 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:19 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:20 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:20 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:20 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:20 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:20 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:21 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:52:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:21 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:22 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:23 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:24 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+May 23, 2025 10:52:26 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/.reports/metals-full/2025-05-23/r_empty-definition_22-52-26-381.md)
+2025.05.23 22:52:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+May 23, 2025 10:52:26 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: java/lang/Object# (full report at: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/.reports/metals-full/2025-05-23/r_empty-definition_22-52-26-421.md)
+2025.05.23 22:52:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:26 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:25 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:52 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:52 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:52:52 INFO  Shutting down server
+2025.05.23 22:52:52 INFO  shutting down Metals
+2025.05.23 22:52:53 INFO  Shut down connection with build server.
+2025.05.23 22:52:53 INFO  Shut down connection with build server.
+2025.05.23 22:52:52 INFO  Exiting server
+2025.05.23 22:53:01 INFO  Started: Metals version 1.5.3 in folders '/home/amin-dziri/Documents/projects/Niki-the-robot-DSL' for client Visual Studio Code 1.100.2.
+2025.05.23 22:53:01 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.23 22:53:02 INFO  Attempting to connect to the build server...
+2025.05.23 22:53:02 INFO  Found a Bloop server running
+2025.05.23 22:53:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:53:02 INFO  Attempting to connect to the build server...
+2025.05.23 22:53:02 INFO  Found a Bloop server running
+2025.05.23 22:53:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:53:02 INFO  time: Connected to build server in 0.33s
+2025.05.23 22:53:02 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.23 22:53:02 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2025.05.23 22:53:03 INFO  time: indexed workspace in 1.73s
+2025.05.23 22:53:03 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:53:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:04 WARN  no build target for: /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala
+2025.05.23 22:53:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:04 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:09 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:09 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:33 INFO  no build target found for /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/src/Main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.20
+2025.05.23 22:53:33 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 22:53:39 INFO  time: compiled niki-the-robot-dsl in 6.03s
+2025.05.23 22:53:39 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 22:53:39 INFO  time: compiled niki-the-robot-dsl in 68ms
+2025.05.23 22:53:58 INFO  running '/home/amin-dziri/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.23 22:53:59 INFO  [info] welcome to sbt 1.10.11 (Ubuntu Java 21.0.7)
+2025.05.23 22:53:59 INFO  [info] loading settings for project niki-the-robot-dsl-build-build from metals.sbt...
+2025.05.23 22:53:59 INFO  [info] loading project definition from /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/project
+2025.05.23 22:54:01 INFO  [info] loading settings for project niki-the-robot-dsl-build from metals.sbt...
+2025.05.23 22:54:01 INFO  [info] loading project definition from /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project
+2025.05.23 22:54:02 INFO  [success] Generated .bloop/niki-the-robot-dsl-build.json
+2025.05.23 22:54:02 INFO  [success] Total time: 1 s, completed May 23, 2025, 10:54:02 PM
+2025.05.23 22:54:03 INFO  [info] loading settings for project niki-the-robot-dsl from build.sbt...
+2025.05.23 22:54:03 INFO  [info] set current project to NIKI-THE-ROBOT-DSL (in build file:/home/amin-dziri/Documents/projects/Niki-the-robot-DSL/)
+2025.05.23 22:54:15 INFO  [success] Generated .bloop/niki-the-robot-dsl.json
+2025.05.23 22:54:15 INFO  [success] Generated .bloop/niki-the-robot-dsl-test.json
+2025.05.23 22:54:15 INFO  [success] Total time: 12 s, completed May 23, 2025, 10:54:15 PM
+2025.05.23 22:54:16 INFO  time: ran 'sbt bloopInstall' in 17s
+2025.05.23 22:54:16 INFO  Disconnecting from Bloop session...
+2025.05.23 22:54:16 INFO  Shut down connection with build server.
+2025.05.23 22:54:16 INFO  Shut down connection with build server.
+2025.05.23 22:54:16 INFO  Attempting to connect to the build server...
+2025.05.23 22:54:16 INFO  Found a Bloop server running
+2025.05.23 22:54:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:54:16 INFO  Attempting to connect to the build server...
+2025.05.23 22:54:16 INFO  Found a Bloop server running
+2025.05.23 22:54:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/amin-dziri/Documents/projects/Niki-the-robot-DSL/project/.metals/bsp.trace.json or /home/amin-dziri/.cache/metals/bsp.trace.json
+2025.05.23 22:54:16 INFO  time: Connected to build server in 0.22s
+2025.05.23 22:54:16 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.23 22:54:16 WARN  3.3.1 is no longer supported in the current Metals versions, using the last known supported version 1.5.1
+2025.05.23 22:54:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2025.05.23 22:54:24 INFO  time: indexed workspace in 8.42s
+2025.05.23 22:54:24 INFO  compiling niki-the-robot-dsl (1 scala source)
+2025.05.23 22:54:26 INFO  time: compiled niki-the-robot-dsl in 1.47s
+May 23, 2025 10:54:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
