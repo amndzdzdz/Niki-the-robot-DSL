@@ -1,5 +1,5 @@
 package classes
 
-import classes.Empty
+import interfaces.Square
 
-case class EmptySquare(var contents: List[Empty])
+case class EmptySquare() extends Square

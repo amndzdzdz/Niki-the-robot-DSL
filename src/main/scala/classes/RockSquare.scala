@@ -1,5 +1,5 @@
 package classes
 
-import classes.Rock
+import interfaces.Square
 
-case class RockSquare(var contents: List[Rock])
+case class RockSquare() extends Square

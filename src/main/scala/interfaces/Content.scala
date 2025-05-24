@@ -1,5 +1,3 @@
 package interfaces
 
-trait Content {
-    val id: Int
-}
+trait Content {}
