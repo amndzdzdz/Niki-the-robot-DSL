@@ -1,5 +1,3 @@
 package interfaces
-import interfaces.Content
 
-trait Square {
-}
+trait Square {}

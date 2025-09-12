@@ -4,120 +4,131 @@ import scala.collection.mutable.ArrayBuffer
 import enums.Orientation
 import java.util.ArrayList
 import scala.compiletime.ops.double
+import classes.Item
+import classes.RockSquare
+import classes.ItemSquare
 
 class Robot(worldSize: Int) {
-    var items: ArrayBuffer[Item] = ArrayBuffer()
-    var currentPositionX: Int = 0
-    var currentPositionY: Int = 0
-    var currentOrientation: Orientation = Orientation.RIGHT
+    private var items: ArrayBuffer[Item] = ArrayBuffer()
+    private var currentPositionX: Int = 0
+    private var currentPositionY: Int = 0
+    private var currentOrientation: Orientation = Orientation.RIGHT
 
     def turnLeft(): Unit = {
         currentOrientation match
-            case Orientation.UP => currentOrientation = Orientation.LEFT
-            case Orientation.RIGHT => currentOrientation = Orientation.UP
-            case Orientation.DOWN => currentOrientation = Orientation.LEFT
-            case Orientation.LEFT => currentOrientation = Orientation.DOWN
+            case Orientation.UP => this.currentOrientation = Orientation.LEFT
+            case Orientation.RIGHT => this.currentOrientation = Orientation.UP
+            case Orientation.DOWN => this.currentOrientation = Orientation.LEFT
+            case Orientation.LEFT => this.currentOrientation = Orientation.DOWN
     }
 
     def getCurrentPosition(): (Int, Int) = {
-        (currentPositionX, currentPositionY)
+        (this.currentPositionX, this.currentPositionY)
     }
 
     def turnRight(): Unit = {
         currentOrientation match
-            case Orientation.UP => currentOrientation = Orientation.RIGHT
-            case Orientation.RIGHT => currentOrientation = Orientation.DOWN
-            case Orientation.DOWN => currentOrientation = Orientation.RIGHT
-            case Orientation.LEFT => currentOrientation = Orientation.UP
+            case Orientation.UP => this.currentOrientation = Orientation.RIGHT
+            case Orientation.RIGHT => this.currentOrientation = Orientation.DOWN
+            case Orientation.DOWN => this.currentOrientation = Orientation.RIGHT
+            case Orientation.LEFT => this.currentOrientation = Orientation.UP
     }
 
-    def pickUpItems(state: State): Unit = {
-        var pickedUpItems = state.getItem(currentPositionX, currentPositionY)
-        items ++= pickedUpItems
+    def tryPickUpItem(state: State): Unit = {
+        if (state.getSquareAtPosition(this.currentPositionX, this.currentPositionY).isInstanceOf[ItemSquare]) {
+            var pickedUpItem = state.getItemAtPosition(this.currentPositionX, this.currentPositionY)
+            items.addOne(pickedUpItem)
+        } else {
+            println("There are no items to be picked up!")
+        }
     }
 
-    def dropItem(state: State, itemIdx: Int = 0): Unit = {
+    def tryDropItem(state: State, itemIdx: Int = 0): Unit = {
         assert(itemIdx <= items.length, "This item index is bigger than the item list")
 
-        var item = items(itemIdx)
-        items.remove(itemIdx)
-        state.setItem(currentPositionX, currentPositionY, item)
+        if (items.length > 0) {
+            val item = items(itemIdx)
+            items.remove(itemIdx)
+            state.setItemAtPosition(this.currentPositionX, this.currentPositionY, item)
+        } else {
+            println("I don't have any items to drop :(")
+        }
     }
 
     def moveForward(nSteps: Int, state: State): Unit = {
-        currentOrientation match
+        this.currentOrientation match
             case Orientation.UP => 
-                if checkForRocks_(worldSize, nSteps, state) then
+                if checkForRocks_(this.worldSize, nSteps+1, state) then
                     println("Cant move forward, there is a rock in the way!")
-                else if currentPositionY - nSteps > 0 then 
-                    currentPositionY = currentPositionY - nSteps else currentPositionY = 0
+                else if this.currentPositionY - nSteps > 0 then 
+                    this.currentPositionY = this.currentPositionY - nSteps else this.currentPositionY = 0
+            
             case Orientation.RIGHT => 
-                if checkForRocks_(worldSize, nSteps, state) then
+                if checkForRocks_(this.worldSize, nSteps+1, state) then
                     println("Cant move forward, there is a rock in the way!")
-                else if currentPositionX + nSteps < worldSize then 
-                currentPositionX = currentPositionX + nSteps else currentPositionX = worldSize-1
+                else if this.currentPositionX + nSteps < this.worldSize then 
+                this.currentPositionX = this.currentPositionX + nSteps else this.currentPositionX = this.worldSize-1
+            
             case Orientation.DOWN => 
-                if checkForRocks_(worldSize, nSteps, state) then
+                if checkForRocks_(this.worldSize, nSteps+1, state) then
                     println("Cant move forward, there is a rock in the way!")
-                else if currentPositionY + nSteps < worldSize then 
-                currentPositionY = currentPositionY + nSteps else currentPositionY = worldSize-1
+                else if this.currentPositionY + nSteps < this.worldSize then 
+                this.currentPositionY = this.currentPositionY + nSteps else this.currentPositionY = this.worldSize-1
+            
             case Orientation.LEFT => 
-                if checkForRocks_(worldSize, nSteps, state) then
+                if checkForRocks_(this.worldSize, nSteps+1, state) then
                     println("Cant move forward, there is a rock in the way!")
-                else if currentPositionX - nSteps > 0 then 
-                currentPositionX = currentPositionX - nSteps else currentPositionX = 0
+                else if this.currentPositionX - nSteps > 0 then 
+                this.currentPositionX = this.currentPositionX - nSteps else this.currentPositionX = 0
     }
 
     def checkForRocks_(worldSize: Int, nSteps: Int, state: State): Boolean = {
         var bool = false
-        currentOrientation match
+        this.currentOrientation match
             case Orientation.UP => 
                 for step <- 1 until nSteps do
-                    var nextStep = currentPositionY - step
+                    var nextStep = this.currentPositionY - step
                     if nextStep < 0 then
                         nextStep = 0
-                    var square = state.getSquare(currentPositionX, nextStep)
+                    var square = state.getSquareAtPosition(this.currentPositionX, nextStep)
                     if square.isInstanceOf[RockSquare] then
                         bool = true
+            
             case Orientation.RIGHT => 
-                //fertig!!
                 var maxSteps = 0
-                if currentPositionX + nSteps >= worldSize then
-                    maxSteps = currentPositionX
+                if this.currentPositionX + nSteps >= worldSize then
+                    maxSteps = this.currentPositionX
                 else 
                     maxSteps = nSteps + 1
 
                 for step <- 1 until maxSteps do
-                    
-                    var nextStep = currentPositionX + step
-                    var square = state.getSquare(nextStep, currentPositionY)
+                    var nextStep = this.currentPositionX + step
+                    var square = state.getSquareAtPosition(nextStep, this.currentPositionY)
                     if square.isInstanceOf[RockSquare] then
                         bool = true
+            
             case Orientation.DOWN =>
                 for step <- 1 until nSteps do
-                    var nextStep = currentPositionY + step
+                    var nextStep = this.currentPositionY + step
                     if nextStep >= worldSize then
                         nextStep = worldSize - 1
-                    var square = state.getSquare(currentPositionX, nextStep)
+                    var square = state.getSquareAtPosition(this.currentPositionX, nextStep)
                     if square.isInstanceOf[RockSquare] then
                         bool = true
+            
             case Orientation.LEFT => 
-                
                 var maxSteps = 0
-                if currentPositionX - nSteps >= 0 then
+                if this.currentPositionX - nSteps >= 0 then
                     maxSteps = nSteps
                 else 
-                    maxSteps = currentPositionX
+                    maxSteps = this.currentPositionX
 
                 for step <- 1 until maxSteps do
-                    
-                    var nextStep = currentPositionX - step
-                    var square = state.getSquare(nextStep, currentPositionY)
+                    var nextStep = this.currentPositionX - step
+                    var square = state.getSquareAtPosition(nextStep, this.currentPositionY)
                     if square.isInstanceOf[RockSquare] then
                         bool = true
-        
         return bool
-        
     }
 }
 

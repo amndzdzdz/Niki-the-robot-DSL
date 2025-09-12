@@ -1,5 +1,5 @@
 package classes
 
-import interfaces.Content
+import scala.compiletime.ops.string
 
-case class Item() extends Content
+case class Item(itemName: String, itemIdx: Int)
