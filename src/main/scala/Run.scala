@@ -1,6 +1,6 @@
 package scala 
 
-import classes.Program
+import worldLogic.classes.Program
 
 object Run {
     //example interaction

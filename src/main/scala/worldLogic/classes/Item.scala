@@ -1,4 +1,4 @@
-package classes
+package worldLogic.classes
 
 import scala.compiletime.ops.string
 

@@ -1,11 +1,11 @@
-package classes
+package worldLogic.classes
 
-import interfaces.Square
+import worldLogic.interfaces.Square
 import scala.collection.mutable.ArrayBuffer
 import scala.compiletime.ops.double
-import classes.Item
-import classes.ItemSquare
-import classes.EmptySquare
+import worldLogic.classes.Item
+import worldLogic.classes.ItemSquare
+import worldLogic.classes.EmptySquare
 
 class State(val world: ArrayBuffer[ArrayBuffer[Square]]) {
     assert(this.world.length > 0, "The world height must be larger than 0")

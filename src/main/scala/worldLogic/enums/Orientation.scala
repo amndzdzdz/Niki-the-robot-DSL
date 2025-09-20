@@ -1,4 +1,4 @@
-package enums
+package worldLogic.enums
 
 enum Orientation {
   case UP

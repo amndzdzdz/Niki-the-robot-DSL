@@ -1,12 +1,12 @@
-package classes
+package worldLogic.classes
 
 import scala.collection.mutable.ArrayBuffer
-import enums.Orientation
+import worldLogic.enums.Orientation
 import java.util.ArrayList
 import scala.compiletime.ops.double
-import classes.Item
-import classes.RockSquare
-import classes.ItemSquare
+import worldLogic.classes.Item
+import worldLogic.classes.RockSquare
+import worldLogic.classes.ItemSquare
 
 class Robot(worldSize: Int) {
     private var items: ArrayBuffer[Item] = ArrayBuffer()

@@ -1,14 +1,14 @@
-package classes
+package worldLogic.classes
 
-import classes.State
+import worldLogic.classes.State
 import scala.compiletime.ops.double
 import scala.util.Random
-import interfaces.Square
-import classes.EmptySquare
+import worldLogic.interfaces.Square
+import worldLogic.classes.EmptySquare
 import scala.collection.mutable.ArrayBuffer
-import classes.RockSquare
-import classes.ItemSquare
-import classes.Item
+import worldLogic.classes.RockSquare
+import worldLogic.classes.ItemSquare
+import worldLogic.classes.Item
 
 class Program(worldSize: Int) {
 
