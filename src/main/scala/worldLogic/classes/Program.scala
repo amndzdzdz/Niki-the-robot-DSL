@@ -10,7 +10,7 @@ import worldLogic.classes.RockSquare
 import worldLogic.classes.ItemSquare
 import worldLogic.classes.Item
 
-class Program(worldSize: Int) {
+class GameWorld(worldSize: Int) {
 
     private val state: State = generateRandomState_()
     private val robot: Robot = Robot(worldSize)
