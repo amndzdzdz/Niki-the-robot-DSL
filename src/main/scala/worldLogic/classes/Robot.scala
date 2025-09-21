@@ -38,6 +38,7 @@ class Robot(worldSize: Int) {
         if (state.getSquareAtPosition(this.currentPositionX, this.currentPositionY).isInstanceOf[ItemSquare]) {
             var pickedUpItem = state.getItemAtPosition(this.currentPositionX, this.currentPositionY)
             items.addOne(pickedUpItem)
+            println("I just picked up an item!")
         } else {
             println("There are no items to be picked up!")
         }
@@ -50,6 +51,7 @@ class Robot(worldSize: Int) {
             val item = items(itemIdx)
             items.remove(itemIdx)
             state.setItemAtPosition(this.currentPositionX, this.currentPositionY, item)
+            println("I just dropped an item!")
         } else {
             println("I don't have any items to drop :(")
         }
@@ -58,34 +60,38 @@ class Robot(worldSize: Int) {
     def moveForward(nSteps: Int, state: State): Unit = {
         this.currentOrientation match
             case Orientation.UP => 
-                if checkForRocks_(this.worldSize, nSteps+1, state) then
+                if checkForRocks(nSteps, state) then
                     println("Cant move forward, there is a rock in the way!")
                 else if this.currentPositionY - nSteps > 0 then 
                     this.currentPositionY = this.currentPositionY - nSteps else this.currentPositionY = 0
             
             case Orientation.RIGHT => 
-                if checkForRocks_(this.worldSize, nSteps+1, state) then
+                if checkForRocks(nSteps, state) then
                     println("Cant move forward, there is a rock in the way!")
                 else if this.currentPositionX + nSteps < this.worldSize then 
                 this.currentPositionX = this.currentPositionX + nSteps else this.currentPositionX = this.worldSize-1
             
             case Orientation.DOWN => 
-                if checkForRocks_(this.worldSize, nSteps+1, state) then
+                if checkForRocks(nSteps, state) then
                     println("Cant move forward, there is a rock in the way!")
                 else if this.currentPositionY + nSteps < this.worldSize then 
                 this.currentPositionY = this.currentPositionY + nSteps else this.currentPositionY = this.worldSize-1
             
             case Orientation.LEFT => 
-                if checkForRocks_(this.worldSize, nSteps+1, state) then
+                if checkForRocks(nSteps, state) then
                     println("Cant move forward, there is a rock in the way!")
                 else if this.currentPositionX - nSteps > 0 then 
                 this.currentPositionX = this.currentPositionX - nSteps else this.currentPositionX = 0
     }
 
-    def checkForRocks_(worldSize: Int, nSteps: Int, state: State): Boolean = {
+    def checkForRocks(nSteps: Int, state: State): Boolean = {
         var bool = false
         this.currentOrientation match
-            case Orientation.UP => 
+            case Orientation.UP =>
+                if (this.currentPositionY == 0) {
+                    return false 
+                }
+
                 for step <- 1 until nSteps do
                     var nextStep = this.currentPositionY - step
                     if nextStep < 0 then
@@ -95,8 +101,12 @@ class Robot(worldSize: Int) {
                         bool = true
             
             case Orientation.RIGHT => 
+                if (this.currentPositionX == this.worldSize-1) {
+                    return false 
+                }
+
                 var maxSteps = 0
-                if this.currentPositionX + nSteps >= worldSize then
+                if this.currentPositionX + nSteps >= this.worldSize then
                     maxSteps = this.currentPositionX
                 else 
                     maxSteps = nSteps + 1
@@ -108,15 +118,22 @@ class Robot(worldSize: Int) {
                         bool = true
             
             case Orientation.DOWN =>
+                if (this.currentPositionY == this.worldSize-1) {
+                    return false 
+                }
+
                 for step <- 1 until nSteps do
                     var nextStep = this.currentPositionY + step
-                    if nextStep >= worldSize then
-                        nextStep = worldSize - 1
+                    if nextStep >= this.worldSize then
+                        nextStep = this.worldSize - 1
                     var square = state.getSquareAtPosition(this.currentPositionX, nextStep)
                     if square.isInstanceOf[RockSquare] then
                         bool = true
             
-            case Orientation.LEFT => 
+            case Orientation.LEFT =>
+                if (this.currentPositionX == 0) {
+                    return false 
+                }
                 var maxSteps = 0
                 if this.currentPositionX - nSteps >= 0 then
                     maxSteps = nSteps
@@ -129,6 +146,41 @@ class Robot(worldSize: Int) {
                     if square.isInstanceOf[RockSquare] then
                         bool = true
         return bool
+    }
+
+    def checkForEdge(state: State): Boolean = {
+        this.currentOrientation match
+            case Orientation.UP => 
+                if (this.currentPositionY == 0) {
+                    return true
+                } else {
+                    return false
+                }
+            
+            case Orientation.RIGHT => 
+                if (this.currentPositionX == this.worldSize-1) {
+                    return true
+                } else {
+                    return false
+                }
+
+            case Orientation.DOWN =>
+                if (this.currentPositionY == this.worldSize-1) {
+                    return true
+                } else {
+                    return false
+                }
+             
+            case Orientation.LEFT => 
+                if (this.currentPositionX == 0) {
+                    return true
+                } else {
+                    return false
+                }
+    }
+
+    def getItems(): ArrayBuffer[Item] = {
+        return this.items
     }
 }
 
