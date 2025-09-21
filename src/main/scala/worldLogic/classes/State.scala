@@ -17,11 +17,11 @@ class State(val world: ArrayBuffer[ArrayBuffer[Square]]) {
         val field = this.world(y)(x).asInstanceOf[ItemSquare]
         val item = field.getItem()
         world(y)(x) = EmptySquare()
-        item
+        return item
     }
 
     def getSquareAtPosition(x: Int, y: Int): Square = {
-        this.world(y)(x)
+        return this.world(y)(x)
     }
 
     def setItemAtPosition(x: Int, y: Int, item: Item) = {
