@@ -3,17 +3,8 @@ package scala.dsl
 import fastparse._
 import fastparse.Parsed.Failure
 import fastparse.Parsed.Success
-
-// Background information: We are using so-called parser combinators,
-// which can be seen as a generalization of regular expressions to allow some
-// form of recursion, and which are similar but not quite the same as
-// context-free grammars:
-// https://en.wikipedia.org/wiki/Parser_combinator
-
-// Library documentation: https://com-lihaoyi.github.io/fastparse
-
-// This line imports some implicit mechanisms that enable parsing that ignores
-// white space.
+import scala.dsl.Condition
+import scala.dsl.Command
 import MultiLineWhitespace._
 
 class Parser() {
@@ -28,10 +19,6 @@ class Parser() {
   def move[$: P] =
     P("move" ~ "forward" ~ number ~ ";" map { steps => Command.Move(steps) })
 
-  // Abbreviation for turning twice, represented as an additional command
-  def turnAround[$: P] =
-    P("turn" ~ "around" ~ ";" map { _ => Command.TurnAround })
-
   def turnLeft[$: P] =
     P("turn" ~ "left" ~ ";" map { _ => Command.TurnLeft })
 
@@ -42,24 +29,24 @@ class Parser() {
     P("pick" ~ "up" ~ ";" map { _ => Command.PickUp })
 
   def placeDown[$: P] =
-    P("place" ~ "down" ~ ";" map { _ => Command.PlaceDown })
+    P("place" ~ "down" ~ ";" map { _ => Command.Drop })
 
   // New commands here:
   def showIf[$: P] =
-    P("show" ~ "if" ~ condition map { condition =>
-      ???
+    P("show" ~/ "if" ~/ condition ~/ ";" map { condition =>
+      Command.ShowIf(condition)
     })
 
   def ifCommand[$: P] =
     P("if" ~ condition ~ "then" ~ program ~ "else" ~ program ~ "end" map {
       case (condition, left, right) =>
-        ???
+        Command.IfCommand(condition, left, right)
     })
 
   def whileCommand[$: P] =
     P("while" ~ condition ~ "do" ~ program ~ "end" map {
       case (condition, body) =>
-        ???
+        Command.WhileCommand(condition, body)
     })
 
   // Parser for conditions starts here:
@@ -68,35 +55,33 @@ class Parser() {
 
   // Useful for testing. You can choose how you want to implement this.
   def absurd[$: P] =
-    P("false" map { _ => ??? })
+    P("false" map { _ => Condition.False })
 
   def squareHasItems[$: P] =
-    P("square" ~ "has" ~ "items" map { _ => ??? })
+    P("square" ~ "has" ~ "items" map { _ => Condition.SquareHasItems })
 
   def robotHasItems[$: P] =
-    P("robot" ~ "has" ~ "items" map { _ => ??? })
+    P("robot" ~ "has" ~ "items" map { _ => Condition.RobotHasItems })
 
   def isRockAhead[$: P] =
-    P("is" ~ "rock" ~ "ahead" map { _ => ??? })
+    P("is" ~ "rock" ~ "ahead" map { _ => Condition.IsRockAhead })
 
   def isEdgeAhead[$: P] =
-    P("is" ~ "edge" ~ "ahead" map { _ => ??? })
+    P("is" ~ "edge" ~ "ahead" map { _ => Condition.IsEdgeAhead })
 
   def not[$: P] =
-    P("not" ~ basicCondition map { inner => ??? })
+    P("not" ~ basicCondition map { inner => Condition.NotCondition(inner) })
 
   def conjunction[$: P]: ParsingRun[Condition] =
     P(basicCondition ~ ("and" ~ basicCondition).rep map { case (first, rest) =>
       // You can use the following code, possibly rename the class And to your naming
-      // rest.fold(first)(Condition.And(_, _))
-      ???
+      rest.fold(first)(Condition.AndConditions(_, _))
     })
 
   def disjunction[$: P]: ParsingRun[Condition] =
     P(conjunction ~ ("or" ~ conjunction).rep map { case (first, rest) =>
       // You can use the following code, possibly rename the class Or to your naming
-      // rest.fold(first)(Condition.Or(_, _))
-      ???
+      rest.fold(first)(Condition.OrConditions(_, _))
     })
 
   def condition[$: P]: ParsingRun[Condition] =
@@ -107,7 +92,7 @@ class Parser() {
 
   // This is a choice between all the grammar rules defined above
   def command[$: P]: ParsingRun[Command] =
-    step | move | turnLeft | turnRight | turnAround | pickUp | placeDown | showIf | ifCommand | whileCommand
+    step | move | turnLeft | turnRight | pickUp | placeDown | showIf | ifCommand | whileCommand
 
   def program[$: P] =
     P(command.rep map { commands => Program(commands.toList) })
@@ -117,19 +102,6 @@ class Parser() {
 
   def file[$: P] =
     program ~ End
-
-  def parseText(text: String): Option[Command] = {
-    val result = parse(text, line(_))
-
-    result match {
-      case failure: Failure =>
-        println(failure)
-        None
-
-      case Success(value, index) =>
-        Some(value)
-    }
-  }
 
   def parseProgram(text: String): Option[Program] = {
     val result = parse(text, file(_))
@@ -142,5 +114,6 @@ class Parser() {
       case Success(value, index) =>
         Some(value)
     }
+  
   }
 }
