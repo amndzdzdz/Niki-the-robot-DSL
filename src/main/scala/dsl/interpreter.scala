@@ -1,6 +1,7 @@
 package scala.dsl
 
 import dsl.Program
+import dsl.Command
 import worldLogic.classes.GameWorld
 
 object Interpreter:
@@ -9,15 +10,10 @@ object Interpreter:
         var commands = program.commands
         for (command <- commands) {
             command match
-                case TurnLeft() => 
-                    world.turnLeft()
-                case TurnRight() =>
-                    world.turnRight()
-                case moveForward(steps) =>
-                    world.move(steps)
-                case PickUp() =>
-                    world.tryPickUp()
-                case Drop() =>
-                    world.tryDrop()
+                case Command.TurnLeft() => world.turnLeft()
+                case Command.TurnRight() => world.turnRight()
+                case Command.MoveForward(steps) => world.move(steps)
+                case Command.PickUp() => world.tryPickUp()
+                case Command.Drop() => world.tryDrop()
         }
     }

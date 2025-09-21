@@ -2,10 +2,7 @@ package scala
 
 import worldLogic.classes.GameWorld
 import scala.dsl.Program
-import scala.dsl.moveForward
-import scala.dsl.TurnRight
-import scala.dsl.PickUp
-import scala.dsl.Drop
+import scala.dsl.Command
 import dsl.Interpreter.execute
 
 object Run {
@@ -13,12 +10,12 @@ object Run {
     @main def main(): Unit = {
         val world = GameWorld(worldSize = 5)
         val exampleProgram = new Program(List(
-            new moveForward(2),
-            new TurnRight(),
-            new moveForward(2),
-            new PickUp(),
-            new moveForward(1),
-            new Drop()
+            Command.MoveForward(2),
+            Command.TurnRight(),
+            Command.MoveForward(2),
+            Command.PickUp(),
+            Command.MoveForward(1),
+            Command.Drop()
         ))
 
         execute(exampleProgram, world)
