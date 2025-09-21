@@ -77,4 +77,35 @@ class GameWorld(worldSize: Int) {
     def tryDrop(): Unit = {
         this.robot.tryDropItem(this.state)
     }
+
+    def squareHasItems(): Boolean = {
+        val (x, y) = this.robot.getCurrentPosition()
+        val square = this.state.getSquareAtPosition(x, y)
+        if (square.isInstanceOf[ItemSquare]) {
+            return true
+        } else {
+            false
+        }
+    }
+
+    def robotHasItems(): Boolean = {
+        val items = this.robot.getItems()
+        if (items.length > 0) {
+            return true
+        } else {
+            return false
+        }
+    }
+
+    def isRockAhead(): Boolean = {
+        if (this.robot.checkForRocks(1, this.state)) {
+            return true
+        } else {
+            return false
+        }
+    }
+
+    def isEdgeAhead(): Boolean = {
+        this.robot.checkForEdge(this.state)
+    }
 }
