@@ -10,11 +10,11 @@ object Run {
     @main def main(): Unit = {
         val world = GameWorld(worldSize = 5)
         val exampleProgram = new Program(List(
-            Command.MoveForward(2),
+            Command.Move(2),
             Command.TurnRight(),
-            Command.MoveForward(2),
+            Command.Move(2),
             Command.PickUp(),
-            Command.MoveForward(1),
+            Command.Move(1),
             Command.Drop()
         ))
 
