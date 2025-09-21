@@ -1,0 +1,10 @@
+show if true;
+show if square has items;
+show if robot has items;
+show if is rock ahead;
+show if is edge ahead;
+
+show if true and false or true;
+show if true or false and true;
+show if true and (false or true);
+show if (true or false) and true;

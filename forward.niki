@@ -1,0 +1,7 @@
+while not is rock ahead and not is edge ahead
+do
+    step;
+end
+
+show if is rock ahead;
+show if is edge ahead;

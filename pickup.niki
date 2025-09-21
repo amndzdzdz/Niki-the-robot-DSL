@@ -1,0 +1,8 @@
+while not is rock ahead and not is edge ahead
+do
+    while square has items do
+       pick up;
+    end
+
+    step;
+end
