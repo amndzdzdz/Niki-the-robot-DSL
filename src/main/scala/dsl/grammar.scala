@@ -1,5 +1,3 @@
-package scala.dsl
-
 /* 
 This is a simple grammar specified for niki the robot:
     program ::= {command} A program consists of multiple commands
