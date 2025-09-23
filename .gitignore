@@ -5,3 +5,14 @@ target
 build.sbt
 .bsp
 .scala-build
+# sbt
+target/
+project/target/
+project/project/
+
+# Metals & Bloop
+.metals/
+.bloop/
+
+# VSCode
+.vscode/
