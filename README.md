@@ -25,6 +25,7 @@ To interact with the game, a domain-specific language has been created. It inclu
 
 ## Project Structure  
 
+```
 ├── interactions/               # Example DSL scripts
 │   ├── forward.niki
 │   ├── pickup.niki
@@ -56,6 +57,7 @@ To interact with the game, a domain-specific language has been created. It inclu
 │
 ├── build.sbt
 └── readme.md
+```
 
 ---
 
