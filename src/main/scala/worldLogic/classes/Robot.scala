@@ -2,8 +2,6 @@ package worldLogic.classes
 
 import scala.collection.mutable.ArrayBuffer
 import worldLogic.enums.Orientation
-import java.util.ArrayList
-import scala.compiletime.ops.double
 import worldLogic.classes.Item
 import worldLogic.classes.RockSquare
 import worldLogic.classes.ItemSquare
@@ -20,10 +18,6 @@ class Robot(worldSize: Int) {
             case Orientation.RIGHT => this.currentOrientation = Orientation.UP
             case Orientation.DOWN => this.currentOrientation = Orientation.LEFT
             case Orientation.LEFT => this.currentOrientation = Orientation.DOWN
-    }
-
-    def getCurrentPosition(): (Int, Int) = {
-        (this.currentPositionX, this.currentPositionY)
     }
 
     def turnRight(): Unit = {
@@ -181,6 +175,10 @@ class Robot(worldSize: Int) {
 
     def getItems(): ArrayBuffer[Item] = {
         return this.items
+    }
+
+    def getCurrentPosition(): (Int, Int) = {
+        (this.currentPositionX, this.currentPositionY)
     }
 }
 

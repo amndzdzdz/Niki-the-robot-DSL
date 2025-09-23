@@ -11,7 +11,6 @@ import worldLogic.classes.ItemSquare
 import worldLogic.classes.Item
 
 class GameWorld(worldSize: Int) {
-
     private val state: State = generateRandomState_()
     private val robot: Robot = Robot(worldSize)
 

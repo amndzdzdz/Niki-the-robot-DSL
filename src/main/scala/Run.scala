@@ -21,7 +21,7 @@ object Run {
     @main def main(): Unit = {
         val world = GameWorld(worldSize = 5)
         val parser = new Parser()
-        val file = readFile("show.niki")
+        val file = readFile("interactions/forward.niki")
         val result = parser.parseProgram(file)
         runProgram(result, world)
     }
