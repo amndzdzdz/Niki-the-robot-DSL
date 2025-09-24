@@ -64,7 +64,7 @@ To interact with the game, a domain-specific language has been created. It inclu
 ## Installation  
 
 1. Clone the repository:  
-   `git clone https://github.com/amndzdzdz/Niki-the-robot-DSL.git`
+   `git clone https://github.com/amndzdzdz/niki-the-robot-dsl.git`
    `cd Niki-the-robot-DSL`
    
 2. Make sure you have Scala and sbt installed
